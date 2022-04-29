@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490292D4281B1E8900B92C80 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292D3281B1E8900B92C80 /* InputTextField.swift */; };
+		490292D6281B1F7200B92C80 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292D5281B1F7200B92C80 /* NoteViewController.swift */; };
+		490292D8281B29FB00B92C80 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292D7281B29FB00B92C80 /* ActionButton.swift */; };
+		490292DA281B2C6C00B92C80 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292D9281B2C6C00B92C80 /* DetailViewController.swift */; };
+		490292DC281B8C1600B92C80 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292DB281B8C1600B92C80 /* SectionView.swift */; };
+		490292DE281B931900B92C80 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292DD281B931900B92C80 /* CalendarViewController.swift */; };
+		490292E0281B96C000B92C80 /* WeeklyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292DF281B96C000B92C80 /* WeeklyCalendarView.swift */; };
+		490292E2281B9A8300B92C80 /* WeeklyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292E1281B9A8300B92C80 /* WeeklyCollectionViewCell.swift */; };
+		490292E5281B9D2F00B92C80 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490292E4281B9D2F00B92C80 /* CalendarHelper.swift */; };
+		497E1FFF2819853800EC9B87 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E1FFE2819853800EC9B87 /* HeaderView.swift */; };
+		497E200128198E1300EC9B87 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E200028198E1300EC9B87 /* CardCollectionViewCell.swift */; };
+		497E20042819A69400EC9B87 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 497E20032819A69400EC9B87 /* SnapKit */; };
 		49883522281922AB00367547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49883521281922AB00367547 /* AppDelegate.swift */; };
 		49883524281922AB00367547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49883523281922AB00367547 /* SceneDelegate.swift */; };
 		49883526281922AB00367547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49883525281922AB00367547 /* ViewController.swift */; };
@@ -14,9 +26,23 @@
 		4988352C281922AB00367547 /* medtake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4988352A281922AB00367547 /* medtake.xcdatamodeld */; };
 		4988352E281922AE00367547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4988352D281922AE00367547 /* Assets.xcassets */; };
 		49883531281922AE00367547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4988352F281922AE00367547 /* LaunchScreen.storyboard */; };
+		4988353C2819247700367547 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988353B2819247700367547 /* HomeViewController.swift */; };
+		4988353E281924AE00367547 /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988353D281924AE00367547 /* CardHeaderView.swift */; };
+		4988354028192CF000367547 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988353F28192CF000367547 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490292D3281B1E8900B92C80 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		490292D5281B1F7200B92C80 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		490292D7281B29FB00B92C80 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		490292D9281B2C6C00B92C80 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		490292DB281B8C1600B92C80 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		490292DD281B931900B92C80 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		490292DF281B96C000B92C80 /* WeeklyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyCalendarView.swift; sourceTree = "<group>"; };
+		490292E1281B9A8300B92C80 /* WeeklyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyCollectionViewCell.swift; sourceTree = "<group>"; };
+		490292E4281B9D2F00B92C80 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		497E1FFE2819853800EC9B87 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		497E200028198E1300EC9B87 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		4988351E281922AB00367547 /* medtake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medtake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49883521281922AB00367547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49883523281922AB00367547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +52,9 @@
 		4988352D281922AE00367547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49883530281922AE00367547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49883532281922AE00367547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4988353B2819247700367547 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4988353D281924AE00367547 /* CardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderView.swift; sourceTree = "<group>"; };
+		4988353F28192CF000367547 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +62,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497E20042819A69400EC9B87 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490292E3281B9D1700B92C80 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				490292E4281B9D2F00B92C80 /* CalendarHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		49883515281922AB00367547 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +96,54 @@
 		49883520281922AB00367547 /* medtake */ = {
 			isa = PBXGroup;
 			children = (
+				4988353A281923E500367547 /* View */,
+				498835392819239100367547 /* Controller */,
+				498835382819237200367547 /* System */,
+				49883527281922AB00367547 /* Main.storyboard */,
+				4988352F281922AE00367547 /* LaunchScreen.storyboard */,
+				4988353F28192CF000367547 /* Extensions.swift */,
+				490292E3281B9D1700B92C80 /* Helper */,
+			);
+			path = medtake;
+			sourceTree = "<group>";
+		};
+		498835382819237200367547 /* System */ = {
+			isa = PBXGroup;
+			children = (
 				49883521281922AB00367547 /* AppDelegate.swift */,
 				49883523281922AB00367547 /* SceneDelegate.swift */,
-				49883525281922AB00367547 /* ViewController.swift */,
-				49883527281922AB00367547 /* Main.storyboard */,
 				4988352D281922AE00367547 /* Assets.xcassets */,
-				4988352F281922AE00367547 /* LaunchScreen.storyboard */,
 				49883532281922AE00367547 /* Info.plist */,
 				4988352A281922AB00367547 /* medtake.xcdatamodeld */,
 			);
-			path = medtake;
+			path = System;
+			sourceTree = "<group>";
+		};
+		498835392819239100367547 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49883525281922AB00367547 /* ViewController.swift */,
+				4988353B2819247700367547 /* HomeViewController.swift */,
+				490292D5281B1F7200B92C80 /* NoteViewController.swift */,
+				490292D9281B2C6C00B92C80 /* DetailViewController.swift */,
+				490292DD281B931900B92C80 /* CalendarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4988353A281923E500367547 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				497E1FFE2819853800EC9B87 /* HeaderView.swift */,
+				490292DB281B8C1600B92C80 /* SectionView.swift */,
+				4988353D281924AE00367547 /* CardHeaderView.swift */,
+				497E200028198E1300EC9B87 /* CardCollectionViewCell.swift */,
+				490292D3281B1E8900B92C80 /* InputTextField.swift */,
+				490292D7281B29FB00B92C80 /* ActionButton.swift */,
+				490292DF281B96C000B92C80 /* WeeklyCalendarView.swift */,
+				490292E1281B9A8300B92C80 /* WeeklyCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +162,9 @@
 			dependencies = (
 			);
 			name = medtake;
+			packageProductDependencies = (
+				497E20032819A69400EC9B87 /* SnapKit */,
+			);
 			productName = medtake;
 			productReference = 4988351E281922AB00367547 /* medtake.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 49883515281922AB00367547;
+			packageReferences = (
+				497E20022819A69400EC9B87 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4988351F281922AB00367547 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +223,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490292DE281B931900B92C80 /* CalendarViewController.swift in Sources */,
+				490292E5281B9D2F00B92C80 /* CalendarHelper.swift in Sources */,
+				490292DA281B2C6C00B92C80 /* DetailViewController.swift in Sources */,
+				490292D4281B1E8900B92C80 /* InputTextField.swift in Sources */,
+				4988353C2819247700367547 /* HomeViewController.swift in Sources */,
+				4988353E281924AE00367547 /* CardHeaderView.swift in Sources */,
+				490292D6281B1F7200B92C80 /* NoteViewController.swift in Sources */,
 				49883526281922AB00367547 /* ViewController.swift in Sources */,
 				49883522281922AB00367547 /* AppDelegate.swift in Sources */,
 				49883524281922AB00367547 /* SceneDelegate.swift in Sources */,
+				490292E0281B96C000B92C80 /* WeeklyCalendarView.swift in Sources */,
 				4988352C281922AB00367547 /* medtake.xcdatamodeld in Sources */,
+				490292E2281B9A8300B92C80 /* WeeklyCollectionViewCell.swift in Sources */,
+				4988354028192CF000367547 /* Extensions.swift in Sources */,
+				490292DC281B8C1600B92C80 /* SectionView.swift in Sources */,
+				497E200128198E1300EC9B87 /* CardCollectionViewCell.swift in Sources */,
+				497E1FFF2819853800EC9B87 /* HeaderView.swift in Sources */,
+				490292D8281B29FB00B92C80 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +316,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -274,6 +372,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -291,11 +391,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NQ864VCNU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = medtake/Info.plist;
+				INFOPLIST_FILE = medtake/System/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Medtake;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,11 +421,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NQ864VCNU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = medtake/Info.plist;
+				INFOPLIST_FILE = medtake/System/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Medtake;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +466,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		497E20022819A69400EC9B87 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		497E20032819A69400EC9B87 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 497E20022819A69400EC9B87 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4988352A281922AB00367547 /* medtake.xcdatamodeld */ = {
